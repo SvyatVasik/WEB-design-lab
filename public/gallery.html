@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+        <!--Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- галерея-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+        <style>.galleria{ width: 1280; height: 600px; background: #000 ;margin-left: auto;margin-right: auto}</style>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-dark bg-dark">
+      <div>
+      <a class="navbar-brand" href="index.html">Main</a>
+          <a class="navbar-brand" href="team.html">My Team</a>
+            <a class="navbar-brand" href="intro.html">About me</a>
+            <a class="navbar-brand" href="gallery.html">Gallery</a>
+      </div>
+      </nav>
+        <div class="galleria">
+            <img src="./img/)/2.jpg">
+            <img src="./img/)/MC.jpg">
+            <img src="./img/)/sb.jpg">
+            <img src="./img/)/sq.jpg">
+        </div>
+        <script>
+            (function() {
+                Galleria.loadTheme('/galleria/themes/classic/galleria.classic.js');
+                Galleria.run('.galleria');
+            }());
+        </script>
+        <footer class="content-footer bg-dark ">
+          <p>Say hi to me on these social networks:</p>
+          <ul class="social">
+              <li><a class="css-is-deranged" href="https://t.me/svyatvasik">Telegram</a></li>
+              <li><a class="css-is-deranged" href="https://www.instagram.com/svyat.vasik/">Instagram</a></li>
+              <li><a class="css-is-deranged" href="https://www.facebook.com/profile.php?id=100005118198940">Facebook</a></li>
+          </ul>
+        
+      </footer>
+    </body>
+</html>
